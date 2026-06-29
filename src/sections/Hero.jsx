@@ -45,7 +45,7 @@ const Hero = () => {
         >
           <div className="profile-wrapper glow">
             <img 
-              src="/profile.webp" 
+              src={`${import.meta.env.BASE_URL}profile.webp`} 
               alt="Mohamed Ahmed Eltobgy" 
               className="profile-img"
               onError={(e) => {

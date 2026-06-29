@@ -10,7 +10,7 @@ const EagleBackground = () => {
       
       <div className="eagle-wrapper">
         <img 
-          src="/eagle.png" 
+          src={`${import.meta.env.BASE_URL}eagle.png`} 
           alt="Cyber Eagle Background" 
           className="eagle-img"
         />
