@@ -28,20 +28,10 @@ const Projects = () => {
       }
     },
     {
-      title: 'NextGen E-Commerce Platform',
-      description: 'A scalable e-commerce solution with dynamic cart management, Stripe payment integration, user authentication, and an admin dashboard.',
-      tags: ['Next.js', 'Tailwind', 'Stripe', 'Prisma'],
-      image: 'https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&q=80&w=600&h=400',
-      links: {
-        github: '#',
-        live: '#'
-      }
-    },
-    {
-      title: 'Real Estate Analytics Dashboard',
-      description: 'An interactive dashboard for real estate agents to track sales, property listings, and market trends using interactive charts.',
-      tags: ['React', 'Python', 'Django', 'Chart.js'],
-      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=600&h=400',
+      title: 'AI Pong Game (Python)',
+      description: 'An intelligent recreation of the classic Pong game featuring a self-learning AI opponent. Built with Python and Pygame for smooth rendering and physics.',
+      tags: ['Python', 'Pygame', 'AI/Algorithms'],
+      image: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&q=80&w=600&h=400',
       links: {
         github: '#',
         live: '#'
