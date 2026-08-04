@@ -16,8 +16,17 @@ function App() {
     const updateMousePosition = (e) => {
       setMousePosition({ x: e.clientX, y: e.clientY });
     };
+    const updateTouchPosition = (e) => {
+      if (e.touches && e.touches.length > 0) {
+        setMousePosition({ x: e.touches[0].clientX, y: e.touches[0].clientY });
+      }
+    };
     window.addEventListener('mousemove', updateMousePosition);
-    return () => window.removeEventListener('mousemove', updateMousePosition);
+    window.addEventListener('touchmove', updateTouchPosition);
+    return () => {
+      window.removeEventListener('mousemove', updateMousePosition);
+      window.removeEventListener('touchmove', updateTouchPosition);
+    };
   }, []);
 
   return (
