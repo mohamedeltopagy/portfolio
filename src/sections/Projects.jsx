@@ -39,7 +39,7 @@ const Projects = () => {
       title: 'Vulnerability Scanner Framework',
       description: 'An automated penetration testing framework that scans web applications for OWASP Top 10 vulnerabilities (SQLi, XSS) and generates detailed security reports.',
       tags: ['Python', 'Selenium', 'Security', 'Docker'],
-      image: 'https://images.unsplash.com/photo-1614064641913-a53b9560f64c?auto=format&fit=crop&q=80&w=600&h=400',
+      image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=600&h=400',
       links: { github: '#', live: '#' }
     },
     {
@@ -61,6 +61,20 @@ const Projects = () => {
       description: 'An isolated virtual environment designed to safely execute, observe, and analyze malicious software behavior and reverse-engineer malware payloads.',
       tags: ['Python', 'C++', 'Virtualization', 'Reverse Engineering'],
       image: 'https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&q=80&w=600&h=400',
+      links: { github: '#', live: '#' }
+    },
+    {
+      title: 'APT Threat Simulator (GhostStrike)',
+      description: 'A highly advanced red-team tool that simulates Advanced Persistent Threats (APTs) to test enterprise network defenses and incident response times.',
+      tags: ['C', 'Rust', 'Red Teaming', 'Metasploit'],
+      image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&q=80&w=600&h=400',
+      links: { github: '#', live: '#' }
+    },
+    {
+      title: 'Dark Web Intelligence Scraper',
+      description: 'An autonomous OSINT spider that crawls hidden Tor networks (Onion routing) to extract leaked credentials, zero-day exploits, and threat intelligence data.',
+      tags: ['Python', 'Tor API', 'Scrapy', 'Machine Learning'],
+      image: 'https://images.unsplash.com/photo-1510511459019-5efa3274ba9a?auto=format&fit=crop&q=80&w=600&h=400',
       links: { github: '#', live: '#' }
     }
   ];
