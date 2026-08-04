@@ -32,21 +32,21 @@ const Projects = () => {
       title: 'CipherChat: End-to-End Encrypted Messenger',
       description: 'A highly secure real-time chat application utilizing military-grade AES-256 encryption. Ensuring complete privacy with zero-knowledge architecture.',
       tags: ['React', 'Node.js', 'Cryptography', 'WebSockets'],
-      image: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&q=80&w=600&h=400',
+      image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=600&h=400',
       links: { github: '#', live: '#' }
     },
     {
       title: 'Vulnerability Scanner Framework',
       description: 'An automated penetration testing framework that scans web applications for OWASP Top 10 vulnerabilities (SQLi, XSS) and generates detailed security reports.',
       tags: ['Python', 'Selenium', 'Security', 'Docker'],
-      image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=600&h=400',
+      image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=600&h=400',
       links: { github: '#', live: '#' }
     },
     {
       title: 'Decentralized Identity Vault',
       description: 'A blockchain-based identity management system preventing identity theft. Uses Smart Contracts to securely store and verify digital credentials.',
       tags: ['Solidity', 'Next.js', 'Web3', 'CyberSecurity'],
-      image: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&q=80&w=600&h=400',
+      image: 'https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&q=80&w=600&h=400',
       links: { github: '#', live: '#' }
     },
     {
@@ -67,14 +67,14 @@ const Projects = () => {
       title: 'APT Threat Simulator (GhostStrike)',
       description: 'A highly advanced red-team tool that simulates Advanced Persistent Threats (APTs) to test enterprise network defenses and incident response times.',
       tags: ['C', 'Rust', 'Red Teaming', 'Metasploit'],
-      image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&q=80&w=600&h=400',
+      image: 'https://images.unsplash.com/photo-1563206767-5b18f218e8de?auto=format&fit=crop&q=80&w=600&h=400',
       links: { github: '#', live: '#' }
     },
     {
       title: 'Dark Web Intelligence Scraper',
       description: 'An autonomous OSINT spider that crawls hidden Tor networks (Onion routing) to extract leaked credentials, zero-day exploits, and threat intelligence data.',
       tags: ['Python', 'Tor API', 'Scrapy', 'Machine Learning'],
-      image: 'https://images.unsplash.com/photo-1510511459019-5efa3274ba9a?auto=format&fit=crop&q=80&w=600&h=400',
+      image: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&q=80&w=600&h=400',
       links: { github: '#', live: '#' }
     }
   ];
