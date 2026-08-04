@@ -48,6 +48,20 @@ const Projects = () => {
       tags: ['Solidity', 'Next.js', 'Web3', 'CyberSecurity'],
       image: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&q=80&w=600&h=400',
       links: { github: '#', live: '#' }
+    },
+    {
+      title: 'Zero-Trust Network Gateway',
+      description: 'A robust secure access service edge (SASE) architecture ensuring secure remote access. Validates every device and user instantly without relying on VPNs.',
+      tags: ['Go', 'Cloudflare', 'Networking', 'Security'],
+      image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=600&h=400',
+      links: { github: '#', live: '#' }
+    },
+    {
+      title: 'Malware Sandbox Detonator',
+      description: 'An isolated virtual environment designed to safely execute, observe, and analyze malicious software behavior and reverse-engineer malware payloads.',
+      tags: ['Python', 'C++', 'Virtualization', 'Reverse Engineering'],
+      image: 'https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&q=80&w=600&h=400',
+      links: { github: '#', live: '#' }
     }
   ];
 
